@@ -1,0 +1,13 @@
+PODCASTS — Convención de nombres
+=================================
+Guardá los archivos de audio de NotebookLM así:
+
+pilar1/  →  ep1.mp3  |  ep2.mp3
+pilar2/  →  ep1.mp3  |  ep2.mp3
+pilar3/  →  ep1.mp3  |  ep2.mp3
+pilar4/  →  ep1.mp3  |  ep2.mp3
+pilar5/  →  ep1.mp3  |  ep2.mp3
+pilar6/  →  ep1.mp3  |  ep2.mp3
+pilar7/  →  ep1.mp3  |  ep2.mp3
+
+Total: 14 archivos de audio

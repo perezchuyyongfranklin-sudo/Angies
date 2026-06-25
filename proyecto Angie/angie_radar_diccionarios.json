@@ -1,0 +1,126 @@
+{
+  "version": "1.0",
+  "proposito": "Diccionarios para el 'radar' de Angie.gt. Convierten al algoritmo de esclavo (va solo donde le dices) a explorador (descubre en todo el internet guatemalteco). Cada ruta trae los terminos LOCALES/tradicionales que abren el espectro de resultados, los terminos a EVITAR (monopolizados por el sector tech) y las fuentes donde barrer.",
+  "como_usarlo": "El bot construye consultas combinando: termino_bueno + ciudad/municipio + (opcional) 'gratis'/'inscripciones'/'convocatoria'. Ej: 'curso de uñas acrílicas Mixco inscripciones'. Se ejecuta a diario por fuente.",
+
+  "terminos_evitar_global": [
+    "bootcamp", "EdTech", "skills de alta demanda", "upskilling", "reskilling",
+    "coding", "developer", "full stack", "tech talent", "academia online premium"
+  ],
+  "modificadores_utiles": [
+    "gratis", "gratuito", "becado", "subsidiado", "inscripciones abiertas",
+    "convocatoria", "se busca", "damos capacitacion", "sin experiencia",
+    "a domicilio", "presencial", "fin de semana", "nocturno"
+  ],
+
+  "fuentes": {
+    "gobierno_y_munis": [
+      "SEGEPLAN - Becas por Nuestro Futuro",
+      "MINEDUC / DIGEEX - PROBEFI y educacion extraescolar",
+      "INTECAP - admisiones y cursos",
+      "MINECO - MIPYME y emprendimiento",
+      "Municipalidad de Guatemala (Convivir / TuMuni) - talleres de oficios y belleza",
+      "Municipalidades departamentales (oficinas de la mujer / DMM, juventud)"
+    ],
+    "cooperacion_y_ong": [
+      "USAID Guatemala (proyectos de empleabilidad juvenil)",
+      "Fundacion Juan Bautista Gutierrez",
+      "Fundacion Carlos F. Novella",
+      "AGEXPORT (formacion y empleo)",
+      "Glasswing International Guatemala",
+      "Camaras y gremiales (capacitaciones a afiliados)"
+    ],
+    "empleo_formal": [
+      "Tecoloco Guatemala",
+      "Computrabajo GT",
+      "LinkedIn (filtrar junior / atencion al cliente / trainee)",
+      "Bolsas de empleo de los call centers (TELUS, Concentrix, Allied Global)"
+    ],
+    "clasificados": [
+      "Encuentra24 Guatemala (categorias Servicios / Cursos / Empleos)",
+      "OLX Guatemala",
+      "Facebook Marketplace (categoria Servicios)"
+    ],
+    "prensa_local": [
+      "Prensa Libre (secciones Comunitario / Departamental / Economia)",
+      "Soy502", "La Hora", "El Metropolitano",
+      "Diarios y paginas departamentales (ej. medios de Quetzaltenango)"
+    ],
+    "redes_sociales": [
+      "Grupos de Facebook por municipio (ej. 'Empleos y Cursos en Mixco', 'Chimaltenango Anuncios', 'Academias de Belleza en Xela')",
+      "Paginas de academias y centros de capacitacion locales",
+      "NOTA: usar SOLO via API oficial de Meta o alianzas; scrapear grupos viola sus Terminos y toca datos personales"
+    ],
+    "mapas": [
+      "Google Maps API - categorias: 'Academia de belleza', 'Escuela tecnica', 'Centro de capacitacion', 'Academia de computacion', 'Escuela de manejo'",
+      "Accion: extraer sitio web / telefono y revisar su seccion 'Cursos' o 'Convocatorias'"
+    ],
+    "web_gt": [
+      "Google Custom Search restringido a dominios .gt",
+      "Filtro por novedad (ultimas 24-72h) + patrones 'cursos', 'convocatorias', 'pasantias', 'aprende con nosotros', 'talleres'"
+    ]
+  },
+
+  "patrones_de_oportunidad": [
+    "Inauguran centro de capacitacion en [Municipio]",
+    "Abren inscripciones para cursos gratuitos",
+    "Ofreceran talleres gratuitos de [oficio]",
+    "Feria de empleo en [Municipio]",
+    "Se busca [puesto], damos capacitacion (empleo que ENSEÑA la habilidad)",
+    "Se dictan clases de [habilidad] (clasificado de persona/negocio local)"
+  ],
+
+  "rutas": {
+    "unas": {
+      "terminos_buenos": ["curso de uñas acrilicas", "curso de manicure y pedicure", "uñas en gel / semipermanente", "tecnico en belleza", "cosmetologia", "academia de belleza", "esculpido de uñas", "nail art curso", "se busca manicurista damos capacitacion"],
+      "terminos_evitar": ["nail tech bootcamp"],
+      "fuentes_clave": ["redes_sociales", "clasificados", "mapas", "gobierno_y_munis"]
+    },
+    "ventas": {
+      "terminos_buenos": ["curso de ventas", "tecnicas de venta y negociacion", "atencion al cliente", "ejecutivo de ventas junior", "asesor comercial", "vendedor de mostrador", "telemercadeo", "servicio al cliente sin experiencia"],
+      "terminos_evitar": ["sales bootcamp", "growth hacking"],
+      "fuentes_clave": ["empleo_formal", "clasificados", "gobierno_y_munis"]
+    },
+    "excel": {
+      "terminos_buenos": ["curso de Excel", "curso de computacion", "ofimatica", "Excel basico e intermedio", "manejo de paquete Office", "asistente administrativo", "secretariado computarizado", "INTECAP computacion"],
+      "terminos_evitar": ["data bootcamp", "spreadsheets mastery"],
+      "fuentes_clave": ["gobierno_y_munis", "mapas", "web_gt", "empleo_formal"]
+    },
+    "contabilidad": {
+      "terminos_buenos": ["curso de contabilidad", "auxiliar / asistente contable", "contabilidad para negocios", "perito contador", "declaraciones y tramites SAT", "contabilidad basica para emprendedores", "finanzas para pymes"],
+      "terminos_evitar": ["fintech bootcamp", "accounting mastery"],
+      "fuentes_clave": ["gobierno_y_munis", "empleo_formal", "web_gt", "clasificados"]
+    },
+    "ingles": {
+      "terminos_buenos": ["curso de ingles", "academia de ingles", "ingles basico", "ingles para call center", "becas de ingles", "CALUSAC", "ingles bilingue atencion al cliente", "ingles gratis municipalidad"],
+      "terminos_evitar": ["language bootcamp"],
+      "fuentes_clave": ["gobierno_y_munis", "cooperacion_y_ong", "empleo_formal", "mapas"]
+    },
+    "powerbi_datos": {
+      "terminos_buenos": ["analisis de datos", "Excel avanzado", "tableros y reportes", "Power BI curso", "estadistica aplicada", "asistente de datos junior"],
+      "terminos_evitar": ["data science bootcamp", "analytics stack"],
+      "fuentes_clave": ["web_gt", "empleo_formal", "gobierno_y_munis"]
+    },
+    "marketing_digital": {
+      "terminos_buenos": ["curso de marketing digital", "manejo de redes sociales", "community manager", "publicidad en Facebook e Instagram", "diseño de contenido", "fotografia de producto"],
+      "terminos_evitar": ["growth marketing bootcamp", "performance stack"],
+      "fuentes_clave": ["redes_sociales", "web_gt", "empleo_formal", "clasificados"]
+    },
+    "media_buyer_ads": {
+      "terminos_buenos": ["pauta digital", "anuncios en Facebook", "publicidad para negocios", "administrar campañas", "asistente de marketing"],
+      "terminos_evitar": ["media buying bootcamp"],
+      "fuentes_clave": ["empleo_formal", "redes_sociales", "web_gt"]
+    },
+    "oficios_general": {
+      "terminos_buenos": ["escuela de oficios", "capacitacion tecnica", "talleres libres", "competencias laborales", "formacion para el trabajo", "cursos gratuitos de la municipalidad", "emprendimiento femenino", "becas de formacion"],
+      "terminos_evitar": ["upskilling program", "vocational tech"],
+      "fuentes_clave": ["gobierno_y_munis", "cooperacion_y_ong", "prensa_local", "mapas"]
+    },
+    "cripto_web3": {
+      "terminos_buenos": ["educacion financiera", "curso de inversion", "criptomonedas para principiantes", "finanzas personales", "trabajo remoto en linea"],
+      "terminos_evitar": ["crypto bootcamp", "web3 talent"],
+      "fuentes_clave": ["web_gt", "empleo_formal"],
+      "nota": "Sector con poca oferta LOCAL formal; el radar aqui rinde mas en fuentes globales/online que en Guatemala."
+    }
+  }
+}

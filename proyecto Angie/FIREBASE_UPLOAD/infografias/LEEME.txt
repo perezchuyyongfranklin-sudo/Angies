@@ -1,0 +1,56 @@
+INFOGRAFÍAS — Convención de nombres
+=====================================
+Guardá las imágenes con el ID exacto del HTML + extensión .png
+
+PILAR 1 — Mindset:
+  pilar1/r1_1.png  →  Mentalidad Fija vs Crecimiento
+  pilar1/r1_2.png  →  La Matriz del Comportamiento
+  pilar1/r1_3.png  →  La Ciencia del Cambio (Neuroplasticidad)
+  pilar1/r1_4.png  →  El Viaje de 4 Pasos
+  pilar1/r1_5.png  →  El Peligro de las Etiquetas
+  pilar1/r1_6.png  →  Todos somos una mezcla
+
+PILAR 2 — Metas y propósito:
+  pilar2/r2_1.png  →  El Círculo Dorado
+  pilar2/r2_2.png  →  Cerebro límbico vs prefrontal
+  pilar2/r2_3.png  →  Metas SMART
+  pilar2/r2_4.png  →  Las 10 metas de Tracy
+  pilar2/r2_5.png  →  Bloques de tiempo
+  pilar2/r2_6.png  →  Revisión semanal
+
+PILAR 3 — Hábitos:
+  pilar3/r3_1.png  →  El bucle del hábito
+  pilar3/r3_2.png  →  La mejora del 1%
+  pilar3/r3_4.png  →  Reducir la fricción
+  pilar3/r3_6.png  →  Apilamiento de hábitos
+
+PILAR 4 — Persistencia:
+  pilar4/r4_1.png  →  Grit = Pasión + Perseverancia
+  pilar4/r4_2.png  →  El esfuerzo cuenta doble
+  pilar4/r4_3.png  →  Práctica deliberada
+  pilar4/r4_4.png  →  Propósito como motor
+  pilar4/r4_5.png  →  Cultura del grit
+
+PILAR 5 — Relaciones:
+  pilar5/r5_1.png  →  La regla de los 5
+  pilar5/r5_2.png  →  Dar primero
+  pilar5/r5_3.png  →  Escuchar de verdad
+  pilar5/r5_4.png  →  Conectores vs acumuladores
+  pilar5/r5_5.png  →  Diseñá tu entorno
+  pilar5/r5_6.png  →  Relaciones de largo plazo
+
+PILAR 6 — Enfoque:
+  pilar6/r6_1.png  →  Bloques de trabajo profundo
+  pilar6/r6_2.png  →  El mito del multitasking
+  pilar6/r6_4.png  →  Batching de comunicación
+  pilar6/r6_5.png  →  Eliminar antes de optimizar
+  pilar6/r6_6.png  →  Time blocking
+
+PILAR 7 — Responsabilidad:
+  pilar7/r7_1.png  →  Círculo de influencia vs preocupación
+  pilar7/r7_2.png  →  Ser vs Tener vs Hacer
+  pilar7/r7_3.png  →  Extreme Ownership
+  pilar7/r7_5.png  →  Comenzar con el fin en mente
+  pilar7/r7_6.png  →  La dicotomía del liderazgo
+
+Total: 37 imágenes
